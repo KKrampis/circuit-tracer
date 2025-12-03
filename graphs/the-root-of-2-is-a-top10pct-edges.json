@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "slug": "therootof2isa-1757947922641-top10pct-edges",
+    "scan": "gemma-2-2b",
+    "transcoder_list": [],
+    "prompt_tokens": [
+      "<bos>",
+      "The",
+      " root",
+      " of",
+      " ",
+      "2",
+      " is",
+      " a"
+    ],
+    "prompt": "<bos>The root of 2 is a",
+    "node_threshold": 0.8,
+    "schema_version": 1,
+    "info": {
+      "creator_name": "Anonymous (CT)",
+      "creator_url": "https://neuronpedia.org",
+      "source_urls": [
+        "https://neuronpedia.org/gemma-2-2b/gemmascope-transcoder-16k",
+        "https://huggingface.co/google/gemma-scope-2b-pt-transcoders"
+      ],
+      "generator": {
+        "name": "circuit-tracer by Hanna & Piotrowski",
+        "version": "0.2.0 | 3976e39",
+        "url": "https://github.com/safety-research/circuit-tracer"
+      },
+      "create_time_ms": 1757947936794,
+      "neuronpedia_link": "https://www.neuronpedia.org/gemma-2-2b/graph?slug=therootof2isa-1757947922641&pruningThreshold=0.8&densityThreshold=0.99",
+      "neuronpedia_source_set": "gemmascope-transcoder-16k"
+    },
+    "generation_settings": {
+      "max_n_logits": 10,
+      "desired_logit_prob": 0.95,
+      "batch_size": 48,
+      "max_feature_nodes": 5000
+    },
+    "pruning_settings": {
+      "node_threshold": 0.8,
+      "edge_threshold": 0.85
+    }
+  },
+  "qParams": {
+    "linkType": "both",
+    "pinnedIds": [],
+    "clickedId": "",
+    "supernodes": [],
+    "sg_pos": ""
+  },
+  "nodes": [
+    {
+      "node_id": "27_22923_7",
+      "feature": 22923,
+      "layer": "27",
+      "ctx_idx": 7,
+      "feature_type": "logit",
+      "token_prob": 0.1650390625,
+      "is_target_logit": true,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "L_22923-7",
+      "clerp": "Output \" rational\" (p=0.165)",
+      "influence": null,
+      "activation": null
+    }
+  ],
+  "links": []
+}

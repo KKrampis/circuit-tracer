@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "slug": "therootof2isa-1757947922641-direct-high-weight",
+    "scan": "gemma-2-2b",
+    "transcoder_list": [],
+    "prompt_tokens": [
+      "<bos>",
+      "The",
+      " root",
+      " of",
+      " ",
+      "2",
+      " is",
+      " a"
+    ],
+    "prompt": "<bos>The root of 2 is a",
+    "node_threshold": 0.8,
+    "schema_version": 1,
+    "info": {
+      "creator_name": "Anonymous (CT)",
+      "creator_url": "https://neuronpedia.org",
+      "source_urls": [
+        "https://neuronpedia.org/gemma-2-2b/gemmascope-transcoder-16k",
+        "https://huggingface.co/google/gemma-scope-2b-pt-transcoders"
+      ],
+      "generator": {
+        "name": "circuit-tracer by Hanna & Piotrowski",
+        "version": "0.2.0 | 3976e39",
+        "url": "https://github.com/safety-research/circuit-tracer"
+      },
+      "create_time_ms": 1757947936794,
+      "neuronpedia_link": "https://www.neuronpedia.org/gemma-2-2b/graph?slug=therootof2isa-1757947922641&pruningThreshold=0.8&densityThreshold=0.99",
+      "neuronpedia_source_set": "gemmascope-transcoder-16k"
+    },
+    "generation_settings": {
+      "max_n_logits": 10,
+      "desired_logit_prob": 0.95,
+      "batch_size": 48,
+      "max_feature_nodes": 5000
+    },
+    "pruning_settings": {
+      "node_threshold": 0.8,
+      "edge_threshold": 0.85
+    }
+  },
+  "qParams": {
+    "linkType": "both",
+    "pinnedIds": [],
+    "clickedId": "",
+    "supernodes": [],
+    "sg_pos": ""
+  },
+  "nodes": [
+    {
+      "node_id": "19_5287_7",
+      "feature": 14084758,
+      "layer": "19",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "19_5287-0",
+      "clerp": "Natural numbers",
+      "influence": 0.3370562493801117,
+      "activation": 23.375
+    },
+    {
+      "node_id": "20_8557_7",
+      "feature": 36795310,
+      "layer": "20",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "20_8557-0",
+      "clerp": "mathematical base",
+      "influence": 0.3229861259460449,
+      "activation": 36.5
+    },
+    {
+      "node_id": "20_15665_7",
+      "feature": 123033120,
+      "layer": "20",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "20_15665-0",
+      "clerp": "a",
+      "influence": 0.3117365539073944,
+      "activation": 29
+    },
+    {
+      "node_id": "21_14673_7",
+      "feature": 107978838,
+      "layer": "21",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "21_14673-0",
+      "clerp": "a",
+      "influence": 0.27352872490882874,
+      "activation": 40.5
+    },
+    {
+      "node_id": "22_9247_7",
+      "feature": 42971062,
+      "layer": "22",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "22_9247-0",
+      "clerp": "fractions",
+      "influence": 0.3775479197502136,
+      "activation": 20
+    },
+    {
+      "node_id": "22_11805_7",
+      "feature": 69956683,
+      "layer": "22",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "22_11805-0",
+      "clerp": "real and complex",
+      "influence": 0.3284251391887665,
+      "activation": 26.75
+    },
+    {
+      "node_id": "24_613_7",
+      "feature": 203816,
+      "layer": "24",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "24_613-0",
+      "clerp": "math publications",
+      "influence": 0.30968961119651794,
+      "activation": 30.875
+    },
+    {
+      "node_id": "24_13277_7",
+      "feature": 88478228,
+      "layer": "24",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "24_13277-0",
+      "clerp": "Romance languages",
+      "influence": 0.2581101059913635,
+      "activation": 85.5
+    },
+    {
+      "node_id": "25_4717_7",
+      "feature": 11250370,
+      "layer": "25",
+      "ctx_idx": 7,
+      "feature_type": "cross layer transcoder",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "25_4717-0",
+      "clerp": "unusual/fantastical narratives",
+      "influence": 0.2919669449329376,
+      "activation": 108
+    },
+    {
+      "node_id": "0_18_7",
+      "feature": -1,
+      "layer": "18",
+      "ctx_idx": 7,
+      "feature_type": "mlp reconstruction error",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "18_7-0",
+      "clerp": "Err: mlp \"  a\"",
+      "influence": 0.2869049310684204,
+      "activation": null
+    },
+    {
+      "node_id": "0_20_7",
+      "feature": -1,
+      "layer": "20",
+      "ctx_idx": 7,
+      "feature_type": "mlp reconstruction error",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "20_7-0",
+      "clerp": "Err: mlp \"  a\"",
+      "influence": 0.25451895594596863,
+      "activation": null
+    },
+    {
+      "node_id": "0_21_7",
+      "feature": -1,
+      "layer": "21",
+      "ctx_idx": 7,
+      "feature_type": "mlp reconstruction error",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "21_7-0",
+      "clerp": "Err: mlp \"  a\"",
+      "influence": 0.25092247128486633,
+      "activation": null
+    },
+    {
+      "node_id": "0_22_7",
+      "feature": -1,
+      "layer": "22",
+      "ctx_idx": 7,
+      "feature_type": "mlp reconstruction error",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "22_7-0",
+      "clerp": "Err: mlp \"  a\"",
+      "influence": 0.2677428722381592,
+      "activation": null
+    },
+    {
+      "node_id": "0_23_7",
+      "feature": -1,
+      "layer": "23",
+      "ctx_idx": 7,
+      "feature_type": "mlp reconstruction error",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "23_7-0",
+      "clerp": "Err: mlp \"  a\"",
+      "influence": 0.23856404423713684,
+      "activation": null
+    },
+    {
+      "node_id": "E_6880_2",
+      "feature": 2,
+      "layer": "E",
+      "ctx_idx": 2,
+      "feature_type": "embedding",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "E_6880-2",
+      "clerp": "Emb: \"  root\"",
+      "influence": 0.07200080156326294,
+      "activation": null
+    },
+    {
+      "node_id": "E_476_7",
+      "feature": 7,
+      "layer": "E",
+      "ctx_idx": 7,
+      "feature_type": "embedding",
+      "token_prob": 0,
+      "is_target_logit": false,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "E_476-7",
+      "clerp": "Emb: \"  a\"",
+      "influence": 0.2105751633644104,
+      "activation": null
+    },
+    {
+      "node_id": "27_22923_7",
+      "feature": 22923,
+      "layer": "27",
+      "ctx_idx": 7,
+      "feature_type": "logit",
+      "token_prob": 0.1650390625,
+      "is_target_logit": true,
+      "run_idx": 0,
+      "reverse_ctx_idx": 0,
+      "jsNodeId": "L_22923-7",
+      "clerp": "Output \" rational\" (p=0.165)",
+      "influence": null,
+      "activation": null
+    }
+  ],
+  "links": [
+    {
+      "source": "19_5287_7",
+      "target": "27_22923_7",
+      "weight": 0.78125
+    },
+    {
+      "source": "20_8557_7",
+      "target": "27_22923_7",
+      "weight": 0.52734375
+    },
+    {
+      "source": "20_15665_7",
+      "target": "27_22923_7",
+      "weight": 0.5859375
+    },
+    {
+      "source": "21_14673_7",
+      "target": "27_22923_7",
+      "weight": 0.61328125
+    },
+    {
+      "source": "22_9247_7",
+      "target": "27_22923_7",
+      "weight": 0.61328125
+    },
+    {
+      "source": "22_11805_7",
+      "target": "27_22923_7",
+      "weight": 0.56640625
+    },
+    {
+      "source": "24_613_7",
+      "target": "27_22923_7",
+      "weight": 0.8203125
+    },
+    {
+      "source": "24_13277_7",
+      "target": "27_22923_7",
+      "weight": 0.88671875
+    },
+    {
+      "source": "25_4717_7",
+      "target": "27_22923_7",
+      "weight": 0.6328125
+    },
+    {
+      "source": "0_18_7",
+      "target": "27_22923_7",
+      "weight": -0.70703125
+    },
+    {
+      "source": "0_20_7",
+      "target": "27_22923_7",
+      "weight": 0.60546875
+    },
+    {
+      "source": "0_21_7",
+      "target": "27_22923_7",
+      "weight": 1.28125
+    },
+    {
+      "source": "0_22_7",
+      "target": "27_22923_7",
+      "weight": -0.5546875
+    },
+    {
+      "source": "0_23_7",
+      "target": "27_22923_7",
+      "weight": 0.71484375
+    },
+    {
+      "source": "E_6880_2",
+      "target": "27_22923_7",
+      "weight": 0.625
+    },
+    {
+      "source": "E_476_7",
+      "target": "27_22923_7",
+      "weight": 0.9296875
+    }
+  ]
+}
